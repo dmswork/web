@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  font-family: system-ui, Arial, sans-sertif;
+}
+
+body {
+  margin: 0;
+  background: #eef2f6;
+}
+
+.app {
+  max-width: 420px;
+  margin: auto;
+  padding: 14px;
+}
+
+h1{
+  text-align
