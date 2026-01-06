@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Scanner Aset</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/html5-qrcode"></script>
+</head>
+<body>
+
+<div class="app">
+
+  <h1>Scan Aset</h1>
+
+  <div id="reader"></div>
+
+  <div id="card" class="card hidden">
+    <h2>Detail Barang</h2>
+
+    <div class="row">
+      <span>Kode</span>
+      <b id="kode"></b>
+    </div>
+
+    <div class="row">
+      <span>Nama</span>
+      <b id="nama"></b>
+    </div>
+
+    <div class="row">
+      <span>Departemen</span>
+      <b id="dept"></b>
+    </div>
+
+    <div class="row">
+      <span>Lokasi</span>
+      <b id="lokasi"></b>
+    </div>
+
+    <div class="row">
+      <span>Status</span>
+      <b id="ket"></b>
+    </div>
+
+    <button onclick="scanUlang()">Scan Ulang</button>
+  </div>
+
+  <p id="status">Arahkan kamera ke barcode</p>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
