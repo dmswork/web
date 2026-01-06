@@ -39,5 +39,36 @@ h1{
   font-size: 18px;
 }
 
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0;
+  font-size: 15px;
+}
 
+.row span {
+  color: #666;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 14px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  background: #2563eb;
+  color: white;
+}
+
+#status {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.hidden {
+  display: none;
+}
   
